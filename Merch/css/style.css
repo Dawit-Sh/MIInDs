@@ -5,6 +5,11 @@
 
 /* Basic */
 
+h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+}
+
 body {
 	background-color: #ebeae9;
 }
@@ -687,4 +692,22 @@ h2 {
 .footer a:visited {
 	text-decoration: none;
 	color: #000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  form {
+    input[type="submit"] {
+      display: none;
+    }
+  }
 }
