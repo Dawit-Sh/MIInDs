@@ -9,19 +9,133 @@
   <body>
 
     <!--Header-->
-
-    <div class="header-container">
-      <div class="logo">
-        <img src="assets/images/logo-black.png" alt="logo" />
-      </div>
-      <div class="links">
+    <div class="header-container-image">
+      <img class="bg" src="assets/images/miinds-bg.png" alt="bg"> 
+      <div class="bg-links">
         <a href="index.html">Home</a>
         <a href="merch.html">Merch</a>
-        <a href="contact.html">Contact</a>
-        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="https://www.youtube.com/channel/UCDDJVCDfAbiiEn073EEd6mA"><button type="">Subscribe</button></a>
+    </div>
+   
+    <!--About-->
+    <div id="about" class="about-container">
+      <h1>Behind the mic</h1>
+      <div class="row">
+        <div class="card">
+          <div class="profile-container">
+            <img src="assets/images/abrsh.png" alt="abrsh" />
+          </div>
+          <h2>Abraham Mengstu</h2> 
+          <p class="desc"reative >I am interested in psychology and philosophy, my attraction to logic and articulacy is unmeasurable.</p>
+          <div class="overlay2">
+            <span class="title">Creative Director | Host</span>
+            <p class="quote">If you listen carefully enough, someone will tell you exactly the kind of person they are sit back and listen</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="profile-container">
+            <img src="assets/images/dave.png" alt="Night king" />
+          </div>
+          <h2>Dawit Sharon</h2>  
+          <p class="desc">A Unix and Linux geek, open source enthusiast, contributer and writer.</p>
+          <div class="overlay2">
+            <span class="title">Founder | Producer | Host</span>
+            <p class="quote">Should I Kill Myself or Have a cup of coffee? <br> - Albert Camus.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="profile-container">
+            <img src="assets/images/yafet.png" alt="yafet" />
+          </div>
+          <h2>Yafet Yared</h2>  
+          <p class="desc">Curiosity driven parapsychology and traditional medicin geek</p>
+          <div class="overlay2">
+            <span class="title">Creative Director | Host</span>
+            <p class="quote">ወይ ታሪክ ሰርተን <br> ወይ ታሪክ ሆነን እናልፋለን</p>
+          </div>
+        </div>
       </div>
     </div>
+   
+    <!--Description-->
+    <div class="paragraph-container">
+      <div>
+       <p class="first-paragraph">The simplest questions often have the most complex answers. MIInDs-Ethiopia is your guide through the 
+         strange thickets of logic, metaphysics and ethics..</p>
+       <div id="contact" class="contact-container">
+        <h3>Let's grab coffee!!</h3>
+        <form>
+          <div class="action-section">
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" placeholder="Enter your name"/>
+          </div>
+          <div class="action-section">
+            <label for="subject">Subject:</label><br>
+            <input type="text" name="subject" placeholder="Enter subject"/>
+          </div>
+          <div class="action-section">
+            <label for="message">Message:</label><br>
+            <textarea name="message" rows="5" cols="25" placeholder="Enter your message"></textarea>
+          </div>
+          <button>Send</button>
+        </form>
+      </div>
+      </div>
+      <div>
+       <p>MIInDs-Ethiopia is a podcast featuring the Tech-Savvy Dawit Sharon and Philomath Abraham Mengstu along 
+         side the parapsychologist Yafet Yared, who share a love for ethics, pop culture, and cognitive science, 
+         and who have a marked inability to distinguish sacred from profane. Each podcast includes discussions 
+         of moral philosophy, recent work on moral psychology and neuroscience, and the overlap between the two.</p>
 
-
+       <p>We also include a variety of topics in our episodes, because defining ourselves with philosophy and 
+         psychology will be only to limit. So we also raise different topics like Biographies,Technology,History,
+         Random Rants and what not. Our main purpose is to reshape the current state of Ethiopia into a better one 
+         combined with Ethiopia's Great past, we want to build a better Tomorrow</p>
+      </div>
+    </div>
+    
+    <!--Footer-->
+    <div class="footer">
+     <div class="footer-container">
+      <div class="footer-row">
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <div class="footer-links">
+          <span>Addis Ababa</span>
+          <span>Tel. +251</span>
+          <span>MIInds Studio</span>
+        </div>
+        <div class="footer-links"> 
+          <div class="footer-social-icons">
+            <a href="https://facebook.com/">
+             <iconify-icon icon="mdi:facebook" style="color: white;" width="30" height="30"></iconify-icon> 
+            </a>
+            <a href="https://t.me/">
+             <iconify-icon icon="mdi:telegram" style="color: white;" width="30" height="30"></iconify-icon> 
+            </a>
+            <a href="https://x.com/">
+             <iconify-icon icon="mdi:twitter" style="color: white;" width="30" height="30"></iconify-icon> 
+            </a>
+            <a href="https://reddit.com/">
+             <iconify-icon icon="mdi:reddit" style="color: white;" width="30" height="30"></iconify-icon> 
+            </a>
+            <a href="https://instagram.com/">
+             <iconify-icon icon="mdi:instagram" style="color: white;" width="30" height="30"></iconify-icon> 
+            </a>
+          </div>
+        </div> 
+      </div> 
+     </div>
+     <div class="copyright">
+       <p>Copyright ©2023 All rights reserved by MIInDs-Ethiopia</p>
+     </div>
+    </div> 
   </body>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </html>
